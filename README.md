@@ -9,9 +9,21 @@ Welcome to Jedha-final project entited Lime
 A) Objective
 to manage the resources of the LIME enterprise
 
-B) Before starting
+B) To launch, initialize the Airflow and compose it with build:
+
+    $ docker-compose up airflow-init
+
+    $ docker-compose up --build
+
+    and ENJOY THE RIDE :)
+
+C) Remarks and notes
 please take into account the follwoing settings:
+
+Concerning the Postgres DB item(1):
+
     1. Postgress Database connection
+    
         a. establish a postgres database container using the postgres image
         hereby is the command:
         
@@ -40,7 +52,10 @@ please take into account the follwoing settings:
            c.3 access the lime data base which is here named posgres
              \du postgres
            c.3 finally, show the data available in the table:
-             select * from tbl_lime_resources 
+             select * from tbl_lime_resources.
+
+Concerning the AWS Azure item(2):
+
 
     2. AWS S3 bucket connection:
        a. within Airflow -> admin -> connection, configure the AWS connection
@@ -55,11 +70,7 @@ please take into account the follwoing settings:
         Val: limeproject
         Description: S3 bucket name
 
-C) finally initialize the Airflow and compose it with build:
-    $ docker-compose up airflow-init
-    $ docker-compose up --build
 
-    and ENJOY THE RIDE :)
 
        
 
