@@ -20,7 +20,7 @@ B) To launch, initialize the Airflow and compose it with build:
 C) Remarks and notes
 please take into account the follwoing settings:
 
-Concerning the Postgres DB item(1):
+Concerning the Postgres DB:
 
     1. Postgress Database connection
     
@@ -54,7 +54,7 @@ Concerning the Postgres DB item(1):
            c.3 finally, show the data available in the table:
              select * from tbl_lime_resources.
 
-Concerning the AWS Azure item(2):
+Concerning the AWS Azure:
 
 
     2. AWS S3 bucket connection:
