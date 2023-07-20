@@ -15,7 +15,7 @@ please take into account the follwoing settings:
         a. establish a postgres database container using the postgres image
         hereby is the command:
         
-        $ docker run --rm -e POSTGRES_USER=user -e POSTGRES_PASSWORD=password --name lime-postgres -p 5433:5432 postgres
+        docker run --rm -e POSTGRES_USER=user -e POSTGRES_PASSWORD=password --name lime-postgres -p 5433:5432 postgres
 
         Remark(1): note the name of the postgres container "lime-postgres"
         Remark(2): note the port mapping between the host and the container, we used 5433. why? 
