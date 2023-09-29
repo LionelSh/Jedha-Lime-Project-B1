@@ -1,13 +1,12 @@
 # Jedha-Lime-Project-B1
 
-
-Welcome to Jedha-final project entited Lime 
+A) Objective 
+<br>
+To manage the resources of the LIME enterprise. <br>
+<b>Aspects</b>: Pipelines contruction , ETL.  <br>
+<b>Technologies used</b> : AirFlow, Tableau, AWS S3 stockage, PosgreSQL. <br>
 
 <a href="https://share.vidyard.com/watch/wfWSABNAvz336eZqVAuWY9?">Click here for Video link concerning the architecture and code explanation</a>
-
-
-A) Objective
-to manage the resources of the LIME enterprise
 
 B) To launch, initialize the Airflow and compose it with build:
 
